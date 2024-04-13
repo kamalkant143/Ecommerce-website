@@ -73,6 +73,7 @@ body {
   box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.3);
   position: fixed;
   top: 0;
+  z-index: 1000;
 }
 
 #heading .logo{
@@ -219,38 +220,58 @@ body {
   text-align: center;
 }
 
+#product1 .container-box{
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  gap:2rem;
+  padding-top: 2rem;
+}
+
 #product1 .container-box .main-box{
-  width: 18%;
-  padding-block: 1rem;
+  width: 23%;
+  padding: 1rem 1.2rem;
   border: 0.1rem solid var(--background-color);
   border-radius: 2rem;
   position: relative;
 }
 
 #product1 .container-box .main-box img {
-  width: 22rem;
+  width: 100%;
   border-radius: 2rem;
+  cursor: pointer;
 }
 
 #product1 .container-box .main-box .descrition{
   text-align:start;
-  margin: 1rem;
+  padding: 1rem 0;
 }
 
-#product1 .container-box .main-box .descrition h5{
+#product1 .container-box .main-box .descrition span{
   font-size: 1.2rem;
+  color: #606063;
+}
+
+
+#product1 .container-box .main-box .descrition h5{
+  font-size: 1.4rem;
   text-transform: capitalize;
-  margin-top: 0.5rem;
+  padding-top: 0.7rem;
+  color: #1a1a1a;
 }
 
 #product1 .container-box .main-box .descrition .star i{
- color: #e0b509;
- margin-block:0.6rem ;
+  padding-top: 0.7rem;
+  font-size: 1.2rem;
+ color: #f3b519;
 }
 
 #product1 .container-box .main-box .descrition h4{
+  padding-top:0.7rem ;
   color: var(--main-color);
   font-size: 1.5rem;
+  font-weight: 700;
 }
 
 #product1 .container-box .main-box a {
@@ -264,7 +285,8 @@ body {
  display: flex;
  justify-content: center;
  align-items: center;
- background-color: #cdebbc;
+ background-color: #e8f6ea;
+ font-weight: 500;
 }
 
 #product1 .container-box .main-box a i{
