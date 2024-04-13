@@ -171,7 +171,6 @@ body {
   width: 18rem;
   text-align: center;
   padding: 2.5rem 1.5rem;
-  /* padding: 2rem 2rem; */
   border: 0.1rem solid #cce7d0;
   border-radius: 0.4rem;
   margin: 1.5rem 0;
@@ -213,3 +212,63 @@ body {
   background-color: #fff2e5;
 }
 
+
+/* == product == */
+
+#product1{
+  text-align: center;
+}
+
+#product1 .container-box .main-box{
+  width: 18%;
+  padding-block: 1rem;
+  border: 0.1rem solid var(--background-color);
+  border-radius: 2rem;
+  position: relative;
+}
+
+#product1 .container-box .main-box img {
+  width: 22rem;
+  border-radius: 2rem;
+}
+
+#product1 .container-box .main-box .descrition{
+  text-align:start;
+  margin: 1rem;
+}
+
+#product1 .container-box .main-box .descrition h5{
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  margin-top: 0.5rem;
+}
+
+#product1 .container-box .main-box .descrition .star i{
+ color: #e0b509;
+ margin-block:0.6rem ;
+}
+
+#product1 .container-box .main-box .descrition h4{
+  color: var(--main-color);
+  font-size: 1.5rem;
+}
+
+#product1 .container-box .main-box a {
+  width: 3.5rem;
+  height: 3.5rem;
+  border: 0.1rem solid var(--background-color);
+  border-radius: 50rem;
+ position: absolute;
+ bottom: 2rem;
+ right: 1rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: #cdebbc;
+}
+
+#product1 .container-box .main-box a i{
+ font-size: 1.5rem;
+ color: var(--main-color);
+
+}
