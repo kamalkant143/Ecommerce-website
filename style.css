@@ -11,12 +11,11 @@ html {
   scroll-behavior: smooth;
 }
 
-:root{
-  
-  --heading-color:#222;
-  --para-color:#465b52;
-  --background-color:#e3e6e3;
-  --main-color:#088178;
+:root {
+  --heading-color: #222;
+  --para-color: #465b52;
+  --background-color: #e3e6e3;
+  --main-color: #088178;
 }
 
 /* Global Styles */
@@ -24,7 +23,7 @@ html {
 h1 {
   font-size: 5rem;
   line-height: 6.4rem;
-  color:var(--heading-color);
+  color: var(--heading-color);
 }
 
 h2 {
@@ -45,7 +44,7 @@ h6 {
 
 p {
   font-size: 1.6rem;
-  color:var(--para-color) ;
+  color: var(--para-color);
   margin: 1.5rem 0 2rem 0;
 }
 
@@ -76,7 +75,7 @@ body {
   z-index: 1000;
 }
 
-#heading .logo{
+#heading .logo {
   cursor: pointer;
 }
 
@@ -88,28 +87,26 @@ body {
 }
 
 #heading .nav-bar .nav-bar-list li {
- list-style: none;
- font-size: 1.8rem;
- font-weight: 500;
- text-transform: capitalize;
- position: relative;
-
+  list-style: none;
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  position: relative;
 }
 
-#heading .nav-bar .nav-bar-list li a{
+#heading .nav-bar .nav-bar-list li a {
   text-decoration: none;
-  color:#1a1a1a;
+  color: #1a1a1a;
   transition: 0.3s ease;
-
 }
 
 #heading .nav-bar .nav-bar-list li a:hover,
-#heading .nav-bar .nav-bar-list li a.active{
+#heading .nav-bar .nav-bar-list li a.active {
   color: var(--main-color);
 }
 
 #heading .nav-bar .nav-bar-list li a.active::after,
-#heading .nav-bar .nav-bar-list li a:hover::after{
+#heading .nav-bar .nav-bar-list li a:hover::after {
   content: "";
   width: 2.4rem;
   height: 0.2rem;
@@ -121,7 +118,7 @@ body {
 
 /* == hero == */
 
-#hero{
+#hero {
   width: 100%;
   height: 90vh;
   background-image: url(img/hero4.png);
@@ -131,25 +128,25 @@ body {
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  padding-inline:8rem ;
+  padding-inline: 8rem;
   text-transform: capitalize;
   margin: 7rem 0 0 0;
 }
 
-#hero h4{
+#hero h4 {
   margin-bottom: 1.5rem;
 }
 
-#hero h1{
+#hero h1 {
   color: var(--main-color);
 }
 
-#hero button{
+#hero button {
   background-image: url(img/button.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding:1rem 5rem;
+  padding: 1rem 5rem;
   border: none;
   background-color: transparent;
   font-size: 1.8rem;
@@ -161,14 +158,14 @@ body {
 
 /* == feature == */
 
-#feature{
+#feature {
   width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-#feature .box{
+#feature .box {
   width: 18rem;
   text-align: center;
   padding: 2.5rem 1.5rem;
@@ -177,12 +174,12 @@ body {
   margin: 1.5rem 0;
 }
 
-#feature .box img{
+#feature .box img {
   width: 100%;
   margin-bottom: 1.5rem;
 }
 
-#feature .box h6{
+#feature .box h6 {
   text-transform: capitalize;
   display: inline-block;
   color: var(--main-color);
@@ -190,50 +187,48 @@ body {
   line-height: 1;
   border-radius: 0.4rem;
   background-color: #fddde4;
-
 }
 
-#feature .box:nth-child(2) h6{
+#feature .box:nth-child(2) h6 {
   background-color: #cdebbc;
 }
 
-#feature .box:nth-child(3) h6{
+#feature .box:nth-child(3) h6 {
   background-color: #d1e8f2;
 }
 
-#feature .box:nth-child(4) h6{
+#feature .box:nth-child(4) h6 {
   background-color: #cdd4f8;
 }
 
-#feature .box:nth-child(5) h6{
+#feature .box:nth-child(5) h6 {
   background-color: #f6dbf6;
 }
 
-#feature .box:nth-child(6) h6{
+#feature .box:nth-child(6) h6 {
   background-color: #fff2e5;
 }
 
-
 /* == product == */
 
-#product1{
+#product1 {
   text-align: center;
 }
 
 #product1 h2,
-#product1 p{
+#product1 p {
   text-transform: capitalize;
 }
 
-#product1 .container-box{
+#product1 .container-box {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  gap:2rem;
+  gap: 2rem;
   padding-top: 2rem;
 }
 
-#product1 .container-box .main-box{
+#product1 .container-box .main-box {
   width: 23%;
   padding: 1rem 1.2rem;
   border: 0.1rem solid var(--background-color);
@@ -242,9 +237,10 @@ body {
   transition: 0.2s;
 }
 
-#product1 .container-box .main-box:hover{
+#product1 .container-box .main-box:hover {
   /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
-  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 
 #product1 .container-box .main-box img {
@@ -253,32 +249,31 @@ body {
   cursor: pointer;
 }
 
-#product1 .container-box .main-box .descrition{
-  text-align:start;
+#product1 .container-box .main-box .descrition {
+  text-align: start;
   padding: 1rem 0;
 }
 
-#product1 .container-box .main-box .descrition span{
+#product1 .container-box .main-box .descrition span {
   font-size: 1.2rem;
   color: #606063;
 }
 
-
-#product1 .container-box .main-box .descrition h5{
+#product1 .container-box .main-box .descrition h5 {
   font-size: 1.4rem;
   text-transform: capitalize;
   padding-top: 0.7rem;
   color: #1a1a1a;
 }
 
-#product1 .container-box .main-box .descrition .star i{
+#product1 .container-box .main-box .descrition .star i {
   padding-top: 0.7rem;
   font-size: 1.2rem;
- color: #f3b519;
+  color: #f3b519;
 }
 
-#product1 .container-box .main-box .descrition h4{
-  padding-top:0.7rem ;
+#product1 .container-box .main-box .descrition h4 {
+  padding-top: 0.7rem;
   color: var(--main-color);
   font-size: 1.5rem;
   font-weight: 700;
@@ -289,19 +284,18 @@ body {
   height: 3.5rem;
   border: 0.1rem solid var(--background-color);
   border-radius: 50rem;
- position: absolute;
- bottom: 2rem;
- right: 1rem;
- display: flex;
- justify-content: center;
- align-items: center;
- background-color: #e8f6ea;
- font-weight: 500;
- text-decoration: none;
+  position: absolute;
+  bottom: 2rem;
+  right: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e8f6ea;
+  font-weight: 500;
+  text-decoration: none;
 }
 
-#product1 .container-box .main-box a i{
- font-size: 1.5rem;
- color: var(--main-color);
-
+#product1 .container-box .main-box a i {
+  font-size: 1.5rem;
+  color: var(--main-color);
 }
