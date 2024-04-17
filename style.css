@@ -63,13 +63,23 @@ body {
 button.btn{
   font-size: 1.5rem;
   font-weight: 500;
-  padding: 1.5rem 2rem;
+  padding: 1.2rem 2rem;
   color: #fff;
   background-color:transparent ;
   border: 0.1rem solid #fff;
   border-radius: 0.4rem;
   cursor: pointer;
+  outline: none;
+  text-transform: capitalize;
   transition: 0.3s;
+  /* font-size: 1.6rem; */
+}
+
+button.btn:hover{
+  border:0.1rem solid var(--main-color);
+  /* outline: none; */
+  background-color: var(--main-color);
+
 }
  
 
@@ -320,10 +330,30 @@ button.btn{
   height: 40vh;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
+  flex-direction: column;
   padding: 1.5rem;
   background-image: url(img/banner/b2.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+#banner h4{
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+#banner h2{
+  color: #fff;
+  padding: 1.5rem 0;
+  font-weight: 600;
+  font-size: 3.6rem;
+  text-transform: capitalize;
+}
+
+#banner h2 span{
+  color: #d21b1b;
 }
