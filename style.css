@@ -364,7 +364,7 @@ button.btn:hover {
 }
 
 #banner1 .banner-box {
-  height: 30rem;
+  height: 35rem;
   background-image: url(img/banner/b17.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -374,4 +374,11 @@ button.btn:hover {
   align-items: flex-start;
   flex-direction: column;
   padding: 2rem;
+}
+
+#banner1 .banner2{
+  background-image: url(img/banner/b18.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
