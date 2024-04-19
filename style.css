@@ -382,3 +382,12 @@ button.btn:hover {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+#banner1 .banner-box h4{
+  text-transform: capitalize;
+}
+
+#banner1 .banner-box h2{
+  text-transform: capitalize;
+  margin: 1.2rem 0;
+}
