@@ -357,3 +357,14 @@ button.btn:hover{
 #banner h2 span{
   color: #d21b1b;
 }
+
+/* == banner1 == */
+
+#banner1 .banner-box{
+  width: 50rem;
+  height: 30rem;
+  background-image: url(img/banner/b17.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
