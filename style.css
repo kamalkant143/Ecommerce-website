@@ -81,6 +81,18 @@ button.btn:hover {
   background-color: var(--main-color);
 }
 
+.normal{
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 1.2rem 2rem;
+  color: #fff;
+  background-color: transparent;
+  border: 0.1rem solid #fff;
+  cursor: pointer;
+  outline: none;
+  text-transform: capitalize;
+  transition: 0.3s
+}
 /* == nav bar == */
 
 #heading {
@@ -364,7 +376,7 @@ button.btn:hover {
 }
 
 #banner1 .banner-box {
-  height: 35rem;
+  height: 50vh;
   background-image: url(img/banner/b17.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -377,7 +389,7 @@ button.btn:hover {
 }
 
 #banner1 .banner2{
-  background-image: url(img/banner/b18.jpg);
+  background-image: url(img/banner/b10.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -385,14 +397,30 @@ button.btn:hover {
 
 #banner1 .banner-box h4{
   text-transform: capitalize;
-  color: #e6dbdb;
-  
+  color: #e6e6ed;
 }
 
 #banner1 .banner-box h2{
   text-transform: capitalize;
-  /* margin: 1rem 0; */
+  margin: 1.2rem 0;
   color: #fff;
   font-size:4rem;
 
+}
+
+#banner1 .banner-box span{
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #e6e6ed;
+  text-transform: capitalize;
+}
+
+#banner1 .banner-box button{
+  margin-top: 2rem;
+}
+
+#banner1 .banner-box:hover button{
+  background-color: var(--main-color);
+  border: 0.1rem solid var(--main-color);
+  /* color: ; */
 }
