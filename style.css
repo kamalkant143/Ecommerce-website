@@ -385,9 +385,14 @@ button.btn:hover {
 
 #banner1 .banner-box h4{
   text-transform: capitalize;
+  color: #e6dbdb;
+  
 }
 
 #banner1 .banner-box h2{
   text-transform: capitalize;
-  margin: 1.2rem 0;
+  /* margin: 1rem 0; */
+  color: #fff;
+  font-size:4rem;
+
 }
