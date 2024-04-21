@@ -424,3 +424,20 @@ button.btn:hover {
   border: 0.1rem solid var(--main-color);
   /* color: ; */
 }
+
+/* == banner3 == */
+
+#banner3{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#banner3 .banner-box{
+  /* width: 30; */
+  height: 25vh;
+  background-image: url(img/banner/b7.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
