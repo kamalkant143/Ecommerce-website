@@ -428,9 +428,8 @@ button.btn:hover {
 /* == banner3 == */
 
 #banner3{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+ 
 }
 
 #banner3 .banner-box{
@@ -441,3 +440,9 @@ button.btn:hover {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+#banner3 .banner-box{
+
+}
+
+
