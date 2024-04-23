@@ -429,20 +429,26 @@ button.btn:hover {
 
 #banner3{
   display: grid;
- 
+ grid-template-columns: repeat(3,1fr);
+ gap: 1.2rem;
 }
 
 #banner3 .banner-box{
   /* width: 30; */
-  height: 25vh;
+  height: 30vh;
   background-image: url(img/banner/b7.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 1.2rem;
 }
 
-#banner3 .banner-box{
-
+#banner3 .banner-box h2{
+  
 }
 
 
