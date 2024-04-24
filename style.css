@@ -529,3 +529,54 @@ button.btn:hover {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
+
+/* == footer == */
+
+footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer .col{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+footer .logo{
+  margin-bottom: 3rem;
+}
+
+footer h4{
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+  text-transform: capitalize;
+}
+
+footer p{
+  font-size: 1.4rem;
+  margin:0 0 0.8rem 0;
+  text-transform: capitalize;
+}
+
+footer a{
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: #222;
+  text-transform: capitalize;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+footer .follow{
+  margin-top: 2rem;
+}
+
+footer .follow i{
+  color:#465b52;
+  padding-right: 0.5rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
