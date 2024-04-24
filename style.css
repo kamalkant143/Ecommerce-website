@@ -460,6 +460,7 @@ button.btn:hover {
 
 #banner3 .banner-box h4{
    color: #ef3636;
+   text-transform: capitalize;
 }
 
 #banner3 .banner{
