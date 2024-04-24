@@ -428,14 +428,18 @@ button.btn:hover {
 /* == banner3 == */
 
 #banner3{
-  display: grid;
- grid-template-columns: repeat(3,1fr);
- gap: 1.2rem;
+  /* display: grid;
+ grid-template-columns: 1fr 2fr 1fr;
+ gap: 3rem; */
+
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
 }
 
 #banner3 .banner-box{
-  /* width: 30; */
-  height: 30vh;
+  width: 32%;
+  height: 32vh;
   background-image: url(img/banner/b7.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -448,15 +452,30 @@ button.btn:hover {
 }
 
 #banner3 .banner-box h2{
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 800;
   text-transform: uppercase;
   color:#fff;
 }
 
-#banner3 .banner-box h2{
-  
+#banner3 .banner-box h4{
+   color: #ef3636;
 }
+
+#banner3 .banner{
+  background-image: url(img/banner/b4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#banner3 .banner1{
+  background-image: url(img/banner/b18.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 
 
