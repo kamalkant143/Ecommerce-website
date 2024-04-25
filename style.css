@@ -580,3 +580,13 @@ footer .follow i{
   font-size: 1.6rem;
   cursor: pointer;
 }
+
+footer .app-store img{
+  border: 0.2rem solid var(--main-color);
+  border-radius: 0.6rem;
+  margin-block: 1.6rem;
+}
+
+footer .pay{
+  margin-top: 1.5rem;
+}
