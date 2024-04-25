@@ -581,7 +581,7 @@ footer .follow i{
   cursor: pointer;
 }
 
-footer .app-store img{
+footer .install .app-store img{
   border: 0.2rem solid var(--main-color);
   border-radius: 0.6rem;
   margin-block: 1.6rem;
@@ -589,4 +589,14 @@ footer .app-store img{
 
 footer .pay{
   margin-top: 1.5rem;
+}
+
+footer .follow i:hover,
+footer a:hover{
+  color: var(--main-color);
+}
+
+footer .copyright{
+  width: 100%;
+text-align: center;
 }
