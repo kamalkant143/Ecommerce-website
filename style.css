@@ -108,6 +108,7 @@ button.btn:hover {
   z-index: 1000;
 }
 
+
 #heading .logo {
   cursor: pointer;
 }
@@ -433,6 +434,7 @@ button.btn:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 #banner3 .banner-box {
@@ -603,3 +605,4 @@ footer .copyright{
   width: 100%;
 text-align: center;
 }
+
