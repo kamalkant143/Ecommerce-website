@@ -149,7 +149,11 @@ button.btn:hover {
   bottom: -0.4rem;
   background-color: var(--main-color);
 }
-
+#mobile{
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
 /* == hero == */
 
 #hero {
