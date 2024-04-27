@@ -2,10 +2,25 @@
 /* media quary */
 
 @media (max-width:800px) {
-    #heading .nav-bar .nav-bar-list {
+    /* #heading .nav-bar .nav-bar-list {
         display: none;
    
-      }
+      } */
+
+      #heading .nav-bar .nav-bar-list {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 5rem;
+        position: fixed;
+        top: 0;
+        right: -30rem;
+        width: 30rem;
+        height: 100vh;
+        background-color:#e3e6f3;
+        padding: 8rem 0 0 4rem ;
+    }
       
 #banner1 {
     grid-template-columns: repeat(1, 1fr);
