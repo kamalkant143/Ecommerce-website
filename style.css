@@ -154,6 +154,10 @@ button.btn:hover {
   justify-content: center;
   align-items: center;
 }
+
+#close{
+  display: none;
+}
 /* == hero == */
 
 #hero {
@@ -201,6 +205,9 @@ button.btn:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
+  
+  
 }
 
 #feature .box {

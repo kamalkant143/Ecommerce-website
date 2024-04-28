@@ -1,8 +1,7 @@
 /* media quary */
 
 @media (max-width: 800px) {
-  
-/* == nav bar mobile == */
+  /* == nav bar mobile == */
   #heading .nav-bar .nav-bar-list {
     display: flex;
     justify-content: flex-start;
@@ -19,8 +18,8 @@
     transition: 0.3s;
   }
 
-  #heading .nav-bar .nav-bar-list.active{
-    right:0;
+  #heading .nav-bar .nav-bar-list.active {
+    right: 0;
   }
 
   #mobile {
@@ -30,13 +29,43 @@
     gap: 2rem;
   }
 
-  #mobile i{
+  #mobile i {
     font-size: 3rem;
     color: #1a1a1a;
     cursor: pointer;
-
   }
 
+  #close {
+    display: flex;
+    position: absolute;
+    font-size: 3rem;
+    top: 2rem;
+    left: 4rem;
+    color: #222;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  #bag {
+    display: none;
+  }
+
+  #hero {
+    height: 70vh;
+    background-position: top 30% right 30%;
+  }
+
+
+/* == feature section== */
+  #feature {
+    justify-content: center;
+  }
+  
+  #feature .box{
+    margin: 1rem 1rem;
+  }
+
+  
   /* == banner large == */
   #banner1 {
     grid-template-columns: repeat(1, 1fr);

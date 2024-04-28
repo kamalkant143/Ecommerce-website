@@ -2,6 +2,7 @@
 
 let bar=document.querySelector("#bar");
 let navBar =document.querySelector(".nav-bar-list")
+let close=document.querySelector("#close")
 
 // console.log(navBar);
 
@@ -10,3 +11,9 @@ if(bar){
     navBar.classList.add("active")
   })
 };
+
+if(close){
+    close.addEventListener("click",()=>{
+      navBar.classList.remove("active")
+    })
+  };
