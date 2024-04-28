@@ -16,6 +16,11 @@
     height: 100vh;
     background-color: #e3e6f3;
     padding: 8rem 0 0 4rem;
+    transition: 0.3s;
+  }
+
+  #heading .nav-bar .nav-bar-list.active{
+    right:0;
   }
 
   #mobile {

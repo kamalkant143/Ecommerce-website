@@ -1,10 +1,12 @@
 // Script for navigation bar
 
 let bar=document.querySelector("#bar");
-let navBar =document.querySelector("#heading .nav-bar .nav-bar-list")
+let navBar =document.querySelector(".nav-bar-list")
 
-console.log(navBar);
+// console.log(navBar);
 
-bar.addEventListener("click",(navBar)=>{
-//  console.log(navBar.style.right="30rem");
-});
+if(bar){
+  bar.addEventListener("click",()=>{
+    navBar.classList.add("active")
+  })
+};
