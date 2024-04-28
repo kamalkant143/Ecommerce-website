@@ -6,7 +6,7 @@
   .section-p1 {
     padding: 4rem 4rem;
   }
-  
+
   #heading .nav-bar .nav-bar-list {
     display: flex;
     justify-content: flex-start;
@@ -39,7 +39,6 @@
     color: #1a1a1a;
     cursor: pointer;
   }
-  
 
   #close {
     display: flex;
@@ -61,17 +60,16 @@
     background-position: top 30% right 30%;
   }
 
-
-/* == feature section== */
+  /* == feature section== */
   #feature {
     justify-content: center;
   }
-  
-  #feature .box{
+
+  #feature .box {
     margin: 1.5rem 1.5rem;
   }
-    
-/* == produc1 section== */
+
+  /* == produc1 section== */
   #product1 .container-box {
     justify-content: center;
   }
@@ -79,8 +77,6 @@
   #product1 .container-box .main-box {
     margin: 1.5rem;
   }
-  
-
 
   /* == banner large == */
 
@@ -91,7 +87,6 @@
   #banner h2 {
     font-size: 3rem;
   }
-
 
   #banner1 {
     grid-template-columns: repeat(1, 1fr);
@@ -104,37 +99,30 @@
   #banner3 .banner-box {
     width: 31%;
     height: 30vh;
-    /* margin-block: 0.5rem; */
   }
 
   #newsletters .form {
     width: 70%;
   }
-  
-
 }
 
-@media(max-width:477px) {
 
-    #heading {
 
-        padding: 1rem 3rem;
-     
-    }
-    
-    #hero {
-    
-        background-position: 60%;
-        padding-inline: 2rem;
-    }
+@media (max-width: 477px) {
+  #heading {
+    padding: 1rem 3rem;
+  }
 
-    h2 {
-        font-size: 3rem;
-       
-    }
+  #hero {
+    background-position: 60%;
+    padding-inline: 2rem;
+  }
 
-    h1 {
-        font-size: 3.5rem;
-   
-    }
+  h2 {
+    font-size: 3rem;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
 }
