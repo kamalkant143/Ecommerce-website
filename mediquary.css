@@ -107,7 +107,34 @@
     /* margin-block: 0.5rem; */
   }
 
- 
+  #newsletters .form {
+    width: 70%;
+  }
   
 
+}
+
+@media(max-width:477px) {
+
+    #heading {
+
+        padding: 1rem 3rem;
+     
+    }
+    
+    #hero {
+    
+        background-position: 60%;
+        padding-inline: 2rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+       
+    }
+
+    h1 {
+        font-size: 3.5rem;
+   
+    }
 }
