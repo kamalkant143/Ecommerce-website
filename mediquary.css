@@ -2,6 +2,11 @@
 
 @media (max-width: 800px) {
   /* == nav bar mobile == */
+
+  .section-p1 {
+    padding: 4rem 4rem;
+  }
+  
   #heading .nav-bar .nav-bar-list {
     display: flex;
     justify-content: flex-start;
@@ -63,8 +68,18 @@
   }
   
   #feature .box{
-    margin: 1rem 1rem;
+    margin: 1.5rem 1.5rem;
   }
+    
+/* == produc1 section== */
+  #product1 .container-box {
+    justify-content: center;
+  }
+
+  #product1 .container-box .main-box {
+    margin: 1.5rem;
+  }
+  
 
 
   /* == banner large == */
