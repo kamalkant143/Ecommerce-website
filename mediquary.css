@@ -152,4 +152,9 @@
     height: 30vh;
     margin-top: 1.2rem;
 }
+
+
+#newsletters .form{
+    width: 100%;
+}
 }
