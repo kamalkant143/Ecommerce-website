@@ -657,3 +657,18 @@ text-align: center;
   font-size: 2rem;
   font-weight: 600;
 }
+
+/* == sproduct html == */
+
+#product-group {
+  margin-top: 7rem;
+}
+
+
+#product-group .big-image{
+  width: 30%;
+}
+
+#product-group .big-image img{
+  width: 100%;
+}
