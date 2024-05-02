@@ -661,14 +661,46 @@ text-align: center;
 /* == sproduct html == */
 
 #product-group {
-  margin-top: 7rem;
+  margin-top: 10rem;
+  display: flex;
 }
 
 
 #product-group .big-image{
-  width: 30%;
+  width: 35%;
+  margin-right: 4rem;
 }
 
 #product-group .big-image img{
   width: 100%;
 }
+
+#product-group .big-image .small-image-group {
+  display: flex;
+}
+
+#product-group .big-image .small-image-group .small-img-col {
+  margin-inline: 0.2rem;
+  cursor: pointer;
+}
+
+#product-group .details{
+  width: 50%;
+  text-transform: capitalize;
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+#product-group .details h2{
+  font-size: 3rem;
+}
+#product-group .details h4{
+  /* font-size: 3rem; */
+  margin: 4rem 0 2rem 0;
+}
+
+#product-group .details h6{
+  font-size:1.5rem ;
+  margin-top: 4rem;
+}
+
+

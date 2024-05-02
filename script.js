@@ -1,10 +1,9 @@
-// Script for navigation bar
-
+// ===bar =
 let bar=document.querySelector("#bar");
 let navBar =document.querySelector(".nav-bar-list")
 let close=document.querySelector("#close")
 
-// console.log(navBar);
+
 
 if(bar){
   bar.addEventListener("click",()=>{
