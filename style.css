@@ -703,4 +703,21 @@ text-align: center;
   margin-top: 4rem;
 }
 
+#product-group .details select{
+  display: block;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+}
+
+#product-group .details input{
+  width: 5rem;
+  height: 3rem;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+  padding-left: 1rem;
+}
+
+#product-group .details input:focus{
+  outline: none;
+}
 
