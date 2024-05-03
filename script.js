@@ -16,3 +16,5 @@ if(close){
       navBar.classList.remove("active")
     })
   };
+
+

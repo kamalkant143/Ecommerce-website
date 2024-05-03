@@ -663,6 +663,7 @@ text-align: center;
 #product-group {
   margin-top: 10rem;
   display: flex;
+
 }
 
 
@@ -687,12 +688,12 @@ text-align: center;
 #product-group .details{
   width: 50%;
   text-transform: capitalize;
-  /* display: flex; */
-  /* flex-direction: column; */
 }
+
 #product-group .details h2{
   font-size: 3rem;
 }
+
 #product-group .details h4{
   /* font-size: 3rem; */
   margin: 4rem 0 2rem 0;
@@ -711,7 +712,7 @@ text-align: center;
 
 #product-group .details input{
   width: 5rem;
-  height: 3rem;
+  height: 4rem;
   margin-right: 1rem;
   font-size: 1.5rem;
   padding-left: 1rem;
@@ -721,3 +722,10 @@ text-align: center;
   outline: none;
 }
 
+#product-group .details button{
+  background-color: var(--main-color);
+}
+
+#product-group .details p{
+  line-height: 1.6;
+}
