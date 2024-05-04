@@ -740,13 +740,13 @@ text-align: center;
 
 #blog .blog-box{
   display: flex;
-  /* justify-content: center; */
   align-items: center;
-  /* margin-right:1.4rem; */
+  position: relative;
+  padding-bottom: 9rem;
 }
 
 #blog .blog-box .blog-img{
-  width: 50%;
+  width: 40%;
   margin-right: 4rem;
 }
 
@@ -758,8 +758,43 @@ text-align: center;
 
 #blog .blog-box .blog-details{
   width: 50%;
+  text-transform: capitalize;
 }
 
 #blog .blog-box .blog-details a{
   text-decoration: none;
+  font-size: 1.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000;
+  position: relative;
+  transition: 0.3s;
+}
+
+#blog .blog-box .blog-details a:hover{
+  color: var(--main-color);
+}
+
+#blog .blog-box .blog-details a::after{
+  content: "";
+  width: 7rem;
+  height: 0.1rem;
+  position: absolute;
+  top: 0.6rem;
+  background-color: #000;
+  right: -8rem;
+}
+
+#blog .blog-box .blog-details a:hover::after{
+  background-color: var(--main-color);
+}
+
+#blog .blog-box h2{
+  position:absolute;
+  top: -3rem;
+  left: 0;
+  color:#c9cbce ;
+  font-size: 7rem;
+  font-weight: 700;
+  z-index: -9;
 }
