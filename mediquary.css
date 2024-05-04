@@ -114,6 +114,7 @@
 }
 
 @media (max-width: 580px) {
+
   #blog{
     padding: 10rem 5rem 0 5rem;
   }
@@ -130,6 +131,12 @@
     margin-right: 0rem;
     margin-bottom: 3rem;
   }
+
+  
+#blog .blog-box .blog-details{
+  width: 100%;
+}
+
 
 }
 
