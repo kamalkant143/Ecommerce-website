@@ -805,9 +805,53 @@ text-align: center;
   background-image: url(img/about/banner.png);
 }
 
+#about-box{
+  display: flex;
+  align-items: center;
+}
+
 #about-box img{
   width: 50%;
   height: auto;
 }
 
-v
+#about-box .about-details{
+  width: 50%;
+  padding-left: 4rem;
+
+}
+
+#about-box .about-details h2{
+  text-transform: capitalize;
+}
+
+#about-box .about-details a{
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #000;
+  transition: 0.3s;
+}
+
+#about-box .about-details a:hover{
+  color: var(--main-color);
+}
+
+#about-app h1{
+  text-align: center;
+  text-transform: capitalize;
+}
+
+#about-app .app-video{
+  width: 60%;
+  height: 100%;
+  margin: 3rem auto 0 auto;
+  
+}
+
+#about-app .app-video video{
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+}
