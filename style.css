@@ -857,17 +857,20 @@ text-align: center;
 }
 
 /* == contact html== */
-
+#content-box {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
 #content-box .detail-box{
-  width: 45%;
+  width: 50%;
 
 }
 
 #content-box .detail-box span{
-   font-size: 1.2rem;
-   text-transform: capitalize;
+   font-size: 1.5rem;
+   text-transform: uppercase;
    font-weight: 600;
-   /* color: #e1e1e1; */
 }
 
 #content-box .detail-box h2{
@@ -897,4 +900,14 @@ text-align: center;
 #content-box .detail-box .content-detail .icon p{
   font-size: 1.5rem;
   padding-left: 1.5rem;
+}
+
+#content-box .map{
+  padding-left: 3rem;
+   width: 50%;
+   height: 100%;
+}
+
+#content-box .map iframe{
+  width: 100%;
 }
