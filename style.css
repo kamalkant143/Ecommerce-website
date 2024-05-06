@@ -913,6 +913,9 @@ text-align: center;
 }
 
 #contact-log{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
   padding: 6rem;
   border: 0.1rem solid #e2e9e1;
   margin: 4rem;
@@ -959,4 +962,33 @@ text-align: center;
   background-color: var(--main-color);
   color: #fff;
   padding: 1rem 2.2rem;
+}
+
+#contact-log .contact-details {
+  width: 30%;
+}
+
+#contact-log .contact-details .details-box{
+  display: flex;
+}
+
+#contact-log .contact-details .details-box img{
+  width: 8rem;
+  height: 8rem;
+}
+
+#contact-log .contact-details .details-box .text{
+  margin-left: 2rem;
+}
+
+#contact-log .contact-details .details-box .text span{
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  font-weight:700 ;
+
+}
+
+#contact-log .contact-details .details-box .text p{
+  text-transform: capitalize;
+  margin: 1rem 0;
 }
