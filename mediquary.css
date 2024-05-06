@@ -109,6 +109,13 @@
   #blog {
     padding: 10rem 2rem 0 2rem;
   }
+
+  /* == contact== */
+  #contact-log {
+    padding: 3rem;
+    margin: 2rem;
+}
+
 }
 
 @media (max-width: 580px) {
@@ -166,6 +173,22 @@
   padding-left: 0rem;
   width: 100%;
 }
+
+#contact-log {
+  flex-direction: column;
+}
+
+#contact-log .log-box {
+  width: 100%;
+  margin-bottom: 6rem;
+ 
+}
+
+#contact-log .contact-details {
+  width: 100%;
+  margin-left: 0rem;
+}
+
 }
 
 

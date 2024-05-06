@@ -913,6 +913,7 @@ text-align: center;
 }
 
 #contact-log{
+  /* width: 100%; */
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -921,7 +922,7 @@ text-align: center;
   margin: 4rem;
 }
 #contact-log .log-box{
-  width: 60%;
+  width: 55%;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -936,6 +937,7 @@ text-align: center;
 #contact-log .log-box h2{
   margin: 2rem 0;
   text-transform: capitalize;
+  font-size: 3rem;
 }
 
 #contact-log .log-box input{
@@ -965,11 +967,13 @@ text-align: center;
 }
 
 #contact-log .contact-details {
-  width: 30%;
+  /* width: 35%; */
+  margin-left: 4rem;
 }
 
 #contact-log .contact-details .details-box{
   display: flex;
+  margin-bottom: 2rem;
 }
 
 #contact-log .contact-details .details-box img{
