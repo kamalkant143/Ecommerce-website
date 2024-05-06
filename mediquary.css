@@ -106,39 +106,69 @@
   }
 
   /* ==blog== */
-  #blog{
+  #blog {
     padding: 10rem 2rem 0 2rem;
   }
-  
- 
 }
 
 @media (max-width: 580px) {
-
-  #blog{
+  #blog {
     padding: 10rem 5rem 0 5rem;
   }
 
-  #blog .blog-box{
+  #blog .blog-box {
     display: flex;
-   flex-direction: column;
-   align-items: flex-start;
-   /* margin-bottom: 3rem; */
+    flex-direction: column;
+    align-items: flex-start;
   }
-  
-  #blog .blog-box .blog-img{
+
+  #blog .blog-box .blog-img {
     width: 100%;
     margin-right: 0rem;
     margin-bottom: 3rem;
   }
 
-  
-#blog .blog-box .blog-details{
+  #blog .blog-box .blog-details {
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 650px) {
+  #about-box {
+    flex-direction: column;
+  }
+
+  #about-box img {
+    width: 100%;
+  }
+  #about-box .about-details {
+    width: 100%;
+    padding-left: 0;
+    margin-top: 4rem;
+  }
+  #about-app .app-video {
+    width: 100%;
+    height: 100%;
+    margin: 3rem auto 0 auto;
+  }
+
+  #content-box {
+    flex-direction: column;
+}
+
+#content-box .detail-box {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+#content-box .map {
+  padding-left: 0rem;
   width: 100%;
 }
-
-
 }
+
+
 
 @media (max-width: 500px) {
   .section-p1 {
@@ -178,51 +208,27 @@
   #banner h2 {
     padding: 1.5rem 0;
     font-size: 2.1rem;
-
   }
 
   #banner3 .banner-box {
     width: 100%;
     height: 30vh;
     margin-top: 1.2rem;
-}
+  }
 
-
-#newsletters .form{
+  #newsletters .form {
     width: 100%;
-}
+  }
 
-#product-group {
-flex-direction: column;
-}
-
-#product-group .big-image{
-  width: 100%;
-}
-
-#product-group .details{
-  width: 100%;
-}
-
-}
-
-@media (max-width:650px) {
-  #about-box {
+  #product-group {
     flex-direction: column;
-}
+  }
 
-#about-box img {
-  width: 100%;
-}
-#about-box .about-details{
-  width: 100%;
-  padding-left: 0;
-  margin-top: 4rem;
+  #product-group .big-image {
+    width: 100%;
+  }
 
-}
-#about-app .app-video {
-  width: 100%;
-  height: 100%;
-  margin: 3rem auto 0 auto;
-}
+  #product-group .details {
+    width: 100%;
+  }
 }
