@@ -927,7 +927,6 @@ text-align: center;
 
 #contact-log .log-box span{
   font-size: 1.5rem;
-  /* font-weight: 700; */
   text-transform: uppercase;
 }
 
@@ -953,4 +952,11 @@ text-align: center;
   text-transform: capitalize;
   border: none;
   border: 0.2rem solid #e2e9e1;
+}
+
+#contact-log .log-box button{
+  margin-top: 2rem;
+  background-color: var(--main-color);
+  color: #fff;
+  padding: 1rem 2.2rem;
 }
