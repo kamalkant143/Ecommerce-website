@@ -4,6 +4,7 @@ let navBar =document.querySelector(".nav-bar-list")
 let close=document.querySelector("#close")
 let image=document.querySelector(".main-box")
 
+
 if(bar){
   bar.addEventListener("click",()=>{
     navBar.classList.add("active")
@@ -18,5 +19,5 @@ if(close){
 
 
   image.addEventListener("click",()=>{
-   window.location.href="http://127.0.0.1:5500/sproduct.html"
+   window.location.href="sproduct.html"
   })

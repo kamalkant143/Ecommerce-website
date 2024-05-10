@@ -72,12 +72,10 @@ button.btn {
   outline: none;
   text-transform: capitalize;
   transition: 0.3s;
-  /* font-size: 1.6rem; */
 }
 
 button.btn:hover {
   border: 0.1rem solid var(--main-color);
-  /* outline: none; */
   background-color: var(--main-color);
 }
 
@@ -693,7 +691,6 @@ text-align: center;
 }
 
 #product-group .details h4{
-  /* font-size: 3rem; */
   margin: 4rem 0 2rem 0;
 }
 
@@ -793,7 +790,7 @@ text-align: center;
 
 #blog .blog-box h2{
   position:absolute;
-  top: -3rem;
+  top: -3.5rem;
   left: 0;
   color:#c9cbce ;
   font-size: 7rem;
