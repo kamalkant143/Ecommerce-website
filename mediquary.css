@@ -219,12 +219,12 @@
   }
 
   #banner {
-    height: 30vh;
+    height: 25vh;
   }
 
   #banner h2 {
     padding: 1.5rem 0;
-    font-size: 2.1rem;
+    font-size: 2rem;
   }
 
   #banner3 .banner-box {
@@ -247,5 +247,22 @@
 
   #product-group .details {
     width: 100%;
+  }
+
+  #feature {
+    justify-content: space-evenly;
+  }
+
+  #banner1 .banner-box {
+    height: 35vh;
+  }
+
+  #shop-logo {
+    height: 30vh;
+  }
+
+  /* contect page */
+  #content-box .detail-box h2 {
+    font-size: 3rem;
   }
 }
