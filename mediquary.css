@@ -219,12 +219,12 @@
   }
 
   #banner {
-    height: 25vh;
+    height: 30vh;
   }
 
   #banner h2 {
     padding: 1.5rem 0;
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
 
   #banner3 .banner-box {
