@@ -233,6 +233,11 @@
     margin-top: 1.2rem;
   }
 
+  #banner1 .banner-box h2 {
+    margin: 1rem 0;
+    font-size: 3rem;
+}
+
   #newsletters .form {
     width: 100%;
   }
